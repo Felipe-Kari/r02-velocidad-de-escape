@@ -6,4 +6,4 @@ r = ARGV[1].to_f
 
 velocidad = Math.sqrt(2 * g * r)
 
-puts velocidad
+puts velocidad.round(2)
